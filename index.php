@@ -1,6 +1,5 @@
 <?php
 $con=mysqli_connect("localhost","root","","pao_belgische_bier_db");
-// Check connection
 if (mysqli_connect_errno())
 {
 echo "Failed to connect to MySQL: " . mysqli_connect_error();
@@ -17,6 +16,7 @@ echo "<table border='1'>
 <th>Gisting</th>
 <th>Perc</th>
 <th>Inkoop prijs</th>
+<th>Like</th>
 
 </tr>";
 
